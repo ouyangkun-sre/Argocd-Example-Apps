@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: spinnakercd/argocd-blue-green:v1
+        image: registry.cn-beijing.aliyuncs.com/wangxiaochun/myapp:v1.0
         ports:
         - name: http
           containerPort: 80
